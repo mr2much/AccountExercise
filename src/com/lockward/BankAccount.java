@@ -9,7 +9,7 @@ public class BankAccount {
     private String phoneNumber;
 
     public BankAccount() {
-
+        this(0, 0.0d, "Default", "Default", "Default");
     }
 
     public BankAccount(int accountNumber, double balance, String customerName, String email, String phoneNumber) {
